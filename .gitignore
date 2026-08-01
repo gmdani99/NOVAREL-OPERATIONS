@@ -1,7 +1,5 @@
 node_modules/
-dist/
-.netlify/
 package.json
 package-lock.json
-deploy.ps1
+publicar.ps1
 .claude/
