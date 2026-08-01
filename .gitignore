@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.netlify/
+package.json
+package-lock.json
+deploy.ps1
+.claude/
