@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --azul-novarel: #0B1F33;
   --azul-pizarra: #36566D;
   --turquesa: #007C83;
@@ -65,7 +65,7 @@ button:focus-visible {
 .text-ambar-dark { color: var(--ambar-dark); }
 
 .eyebrow {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
@@ -73,8 +73,8 @@ button:focus-visible {
 }
 
 .section-title {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 800;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
   color: var(--azul-novarel);
   font-size: 1.9rem;
   line-height: 1.2;
@@ -127,7 +127,7 @@ button:focus-visible {
   gap: 0.5rem;
   background: var(--ambar);
   color: var(--grafito);
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
   padding: 0.85rem 1.5rem;
@@ -156,7 +156,7 @@ button:focus-visible {
   gap: 0.5rem;
   border: 1.5px solid rgba(255,255,255,0.35);
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 600;
   font-size: 0.95rem;
   padding: 1rem 1.75rem;
@@ -227,7 +227,7 @@ button:focus-visible {
 }
 
 .flow-title {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 0.95rem;
@@ -271,7 +271,7 @@ button:focus-visible {
 .level-badge {
   display: inline-flex;
   align-items: center;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.7rem;
   letter-spacing: 0.05em;
@@ -307,7 +307,7 @@ button:focus-visible {
   transform: translateY(-2px);
 }
 .scope-title {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   color: var(--azul-novarel);
 }
@@ -326,8 +326,8 @@ button:focus-visible {
   padding: 2rem;
 }
 .price-num {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 800;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
   font-size: 2.25rem;
   color: var(--azul-novarel);
 }
@@ -373,7 +373,7 @@ button:focus-visible {
   align-self: flex-start;
   background: var(--azul-novarel);
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.7rem;
   letter-spacing: 0.06em;
@@ -384,7 +384,7 @@ button:focus-visible {
 }
 
 .plan-col-eyebrow {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.7rem;
   letter-spacing: 0.08em;
@@ -393,8 +393,8 @@ button:focus-visible {
 }
 .plan-col-name {
   margin-top: 0.4rem;
-  font-family: 'Manrope', sans-serif;
-  font-weight: 800;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
   font-size: 1.4rem;
   color: var(--azul-novarel);
 }
@@ -414,8 +414,8 @@ button:focus-visible {
   border-top: 1px solid #eef1f4;
 }
 .plan-col-num {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 800;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
   font-size: 1.85rem;
   color: var(--azul-novarel);
   letter-spacing: -0.01em;
@@ -445,7 +445,7 @@ button:focus-visible {
   margin-top: 1.75rem;
   border: 1.5px solid var(--azul-novarel);
   color: var(--azul-novarel);
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.8rem 1.5rem;
@@ -471,7 +471,7 @@ button:focus-visible {
   .booking-card { padding: 2.5rem; }
 }
 .booking-label {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--azul-novarel);
@@ -490,7 +490,7 @@ button:focus-visible {
   justify-content: space-between;
 }
 .calendar-month-label {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--azul-novarel);
@@ -698,7 +698,7 @@ button:focus-visible {
   border-radius: 9999px;
   background: var(--turquesa);
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 700;
 }
 
@@ -712,7 +712,7 @@ button:focus-visible {
   gap: 1rem;
   text-align: left;
   padding: 1.25rem 0.25rem;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 600;
   color: var(--azul-novarel);
   cursor: pointer;
