@@ -252,13 +252,15 @@ button:focus-visible {
   box-shadow: 0 12px 24px -12px rgba(11,31,51,0.15);
   transform: translateY(-2px);
 }
-.problem-icon {
+.problem-icon,
+.card-icon {
   width: 3rem; height: 3rem;
   border-radius: 0.75rem;
   background: var(--gris-hielo);
   color: var(--turquesa);
   display: flex; align-items: center; justify-content: center;
   margin-bottom: 1.1rem;
+  flex-shrink: 0;
 }
 
 /* ---------- Level cards ---------- */
