@@ -267,21 +267,19 @@
       var taller = document.getElementById("bk-taller").value.trim();
       var phone = document.getElementById("bk-phone").value.trim();
 
-      var subject = "Solicitud de cita - diagnóstico Novarel Operations";
-      var body =
+      var message =
+        "Hola, quiero solicitar una cita de diagnóstico con Novarel Operations.\n\n" +
         "Nombre: " + name + "\n" +
         "Taller: " + taller + "\n" +
         "Teléfono: " + phone + "\n" +
         "Día solicitado: " + selectedDay.label + "\n" +
         "Hora solicitada: " + selectedTime + "\n\n" +
-        "(Esta es una solicitud de cita, pendiente de confirmación por parte de Novarel Operations.)";
+        "(Solicitud de cita pendiente de confirmación por parte de Novarel Operations.)";
 
-      var mailtoUrl =
-        "mailto:hola@novareloperations.es" +
-        "?subject=" + encodeURIComponent(subject) +
-        "&body=" + encodeURIComponent(body);
+      var whatsappUrl =
+        "https://wa.me/34627490823?text=" + encodeURIComponent(message);
 
-      window.location.href = mailtoUrl;
+      window.open(whatsappUrl, "_blank", "noopener");
       bookingSuccess.classList.remove("hidden");
       bookingSubmit.disabled = true;
     });
