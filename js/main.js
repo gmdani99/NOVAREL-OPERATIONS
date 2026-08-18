@@ -277,7 +277,7 @@
         "(Solicitud de cita pendiente de confirmación por parte de Novarel Operations.)";
 
       var whatsappUrl =
-        "https://wa.me/34627490823?text=" + encodeURIComponent(message);
+        "https://wa.me/34680336220?text=" + encodeURIComponent(message);
 
       window.open(whatsappUrl, "_blank", "noopener");
       bookingSuccess.classList.remove("hidden");
