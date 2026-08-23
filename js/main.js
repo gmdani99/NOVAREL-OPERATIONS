@@ -287,6 +287,28 @@
     buildDays();
   }
 
+  // ---------- Floating WhatsApp button: show once scrolled past the hero ----------
+  var whatsappFab = document.querySelector(".whatsapp-fab");
+  var heroSection = document.querySelector(".hero-illustration");
+  heroSection = heroSection ? heroSection.closest("section") : null;
+
+  if (whatsappFab && heroSection) {
+    var toggleFab = function () {
+      var heroBottom = heroSection.getBoundingClientRect().bottom;
+      whatsappFab.classList.toggle("is-visible", heroBottom < 80);
+    };
+    var fabTicking = false;
+    window.addEventListener("scroll", function () {
+      if (fabTicking) return;
+      fabTicking = true;
+      requestAnimationFrame(function () {
+        toggleFab();
+        fabTicking = false;
+      });
+    });
+    toggleFab();
+  }
+
   // ---------- Scroll reveal ----------
   var revealEls = document.querySelectorAll(".reveal");
   var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
