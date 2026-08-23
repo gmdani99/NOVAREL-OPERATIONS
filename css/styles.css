@@ -149,6 +149,11 @@ button:focus-visible {
   font-size: 1.15rem;
 }
 
+.btn-cta-header {
+  padding: 1.05rem 1.9rem;
+  font-size: 1.05rem;
+}
+
 .btn-outline {
   display: inline-flex;
   align-items: center;
