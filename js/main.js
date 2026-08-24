@@ -46,6 +46,24 @@
     });
   });
 
+  // ---------- "Cómo funciona" levels accordion ----------
+  document.querySelectorAll(".level-toggle").forEach(function (button) {
+    button.addEventListener("click", function () {
+      var card = button.closest(".level-card");
+      var isOpen = card.classList.contains("open");
+
+      document.querySelectorAll(".level-card.open").forEach(function (openCard) {
+        if (openCard !== card) {
+          openCard.classList.remove("open");
+          openCard.querySelector(".level-toggle").setAttribute("aria-expanded", "false");
+        }
+      });
+
+      card.classList.toggle("open", !isOpen);
+      button.setAttribute("aria-expanded", String(!isOpen));
+    });
+  });
+
   // ---------- Hero parallax (mouse-driven, desktop only, no infinite loop) ----------
   var prefersReducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
   var hasFinePointer = window.matchMedia("(pointer: fine)").matches;
